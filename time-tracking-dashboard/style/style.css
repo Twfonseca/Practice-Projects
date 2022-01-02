@@ -1,3 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+    font-family: 'Rubik', sans-serif;
+}
+
 body{
     background-color:hsl(226, 43%, 10%);
+
 }
+
+#profileLaier{
+    background-color: hsl(235, 46%, 20%) ;
+}
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   float: initial;
+    height:330px ;
+    width: 285px;
+    background-color: #4f4fd8 ;
+    border-radius: 10px;
+    position:absolute;
+    top:16.8%;
+    left:4.2%;
+    color: rgb(255, 255, 255);
+}
+
+#manPhoto{
+    height:75px;
+    width:75px;
+    border:2px solid white ;
+    border-radius:40px;
+    position:absolute;
+    top:9.8%;
+    left:5.8%;
+}
+
+#smalestText{
+    position: absolute;
+    top:43.8%;
+    left:5.8%;
+    font-size: 0.6rem;
+}
+
+#nameProfile{
+    position: absolute;
+    top:48%;
+    left:5%;
+    font-size: 2.5rem;
+    font-weight:lighter;
+}
+
