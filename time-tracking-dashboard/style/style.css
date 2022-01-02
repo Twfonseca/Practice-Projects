@@ -3,29 +3,36 @@
     padding: 0px;
     margin:0px;
     font-family: 'Rubik', sans-serif;
+    font-weight:lighter;
 }
 
 body{
     background-color:hsl(226, 43%, 10%);
-
 }
+
 
 #profileLaier{
     background-color: hsl(235, 46%, 20%) ;
+    height:462px ;
+    width: 285px;
+    border-radius: 10px;
+    position:absolute;
+    top:16.8%;
+    left:4.2%;
 }
 
 #profile{
     display: flex;
     flex-direction: column;
     align-items: center;
-   float: initial;
+    float: initial;
     height:330px ;
     width: 285px;
     background-color: #4f4fd8 ;
     border-radius: 10px;
     position:absolute;
-    top:16.8%;
-    left:4.2%;
+    top:0%;
+    left:0%;
     color: rgb(255, 255, 255);
 }
 
@@ -51,6 +58,101 @@ body{
     top:48%;
     left:5%;
     font-size: 2.5rem;
-    font-weight:lighter;
 }
+
+#times{ display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 77%;
+    left:6%;
+    color: #6f76c8;
+    font-size: 0.9rem;
+}
+#myList{
+    list-style: none;
+}
+
+#dailyT{
+margin-bottom: 15px;
+}
+#weeklyT{
+    margin-bottom: 15px;
+}
+#monthlyT{
+    margin-bottom: 15px;
+}
+
+.boxLaier{
+    height:100px;
+    width:285px;
+    border-radius: 10px;
+
+}
+
+.box{
+    height:173px;
+    width:285px;
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 10px;
+}
+
+.boxPosition{
+    position: absolute;
+    top:49%;
+}
+
+#workLaier{
+    background: hsl(15, 100%, 70%) url(./images/icon-work.svg) no-repeat right;
+    background-position-x: 95%;
+    background-position-y: -35%;
+    position: absolute;
+    left: 27% ;
+    top:16.8%;
+}
+
+#playLaier{
+    background: hsl(195, 74%, 62%) url(./images/icon-play.svg )no-repeat right;
+    background-position-x: 95%;
+    background-position-y: -35%;
+    position: absolute;
+    left:50%;
+    top:16.8%;
+}
+
+#studyLaier{
+    background:hsl(348, 100%, 68%) url(./images/icon-study.svg )no-repeat right;
+    background-position-x: 95%;
+    background-position-y: -35%;
+    position: absolute;
+    left:73%;
+    top:16.8%;
+}
+
+#exerciseLaier{
+    background:hsl(145, 58%, 55%) url(./images/icon-exercise.svg) no-repeat right ;
+    background-position-x: 95%;
+    background-position-y: -5%;
+    position: absolute;
+    left: 27% ;
+    top:53% ;
+}
+
+#socialLaier{
+    background:hsl(264, 64%, 52%) url(./images/icon-social.svg) no-repeat right;
+    background-position-x: 95%;
+    position: absolute;
+    left:50%; 
+    top:53% ;
+}
+
+#selfcareLaier{
+    background:hsl(43, 84%, 65%) url(./images/icon-self-care.svg) no-repeat right;
+    background-position-x: 95%;
+    background-position-y: -35%;
+    position: absolute;
+    left:73%;
+    top:53%;
+}
+
+
 
