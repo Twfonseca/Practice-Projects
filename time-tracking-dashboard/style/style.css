@@ -154,5 +154,16 @@ margin-bottom: 15px;
     top:53%;
 }
 
+.titleBox{
+    font-size: 1rem;
+    color:white;
+    display: inline-block;
+    margin: 8% 0% 0% 5% ;
+}
 
-
+.dootsBox{
+    position: absolute;
+    top:14%;
+    left: 88%;
+    width: 15px;
+}
