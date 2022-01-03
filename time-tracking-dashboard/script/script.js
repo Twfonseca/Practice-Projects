@@ -1,4 +1,5 @@
 
+
 let daily= document.querySelector("#dailyT")
 let weekly= document.querySelector("#weeklyT")
 let monthly= document.querySelector("#monthlyT")
