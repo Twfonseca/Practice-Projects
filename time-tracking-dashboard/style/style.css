@@ -1,185 +1,559 @@
 *{
     box-sizing: border-box;
-    padding: 0px;
-    margin:0px;
+    margin: 0%;
+    padding: 0%;
     font-family: 'Rubik', sans-serif;
-    font-weight:lighter;
+    font-weight: lighter;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color:hsl(226, 43%, 10%);
+    color: white;
 }
 
-
-#profileLaier{
-    background-color: hsl(235, 46%, 20%) ;
-    height:462px ;
-    width: 285px;
-    border-radius: 10px;
-    position:absolute;
-    top:16.8%;
-    left:4.2%;
+.pageContainer{
+    margin-top:10%;
 }
 
-#profile{
+.profileBackground{
+    background-color: #1c1f4a;
+    border-radius: 12px;
+    height: 123px;
+    width: 90%;
+    margin: auto;
+}
+
+.profileLaier{
+    height: 77px;
+    width: 100%;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.profileLaier p{
+    font-size: 0.6em;
+}
+
+.profileLaier h1{
+    font-size: 1.2em;
+}
+
+.photoContainer img{
+    width: 45px;
+    border: 2px white solid;
+    border-radius: 50%;
+    margin-left: 32%;
+}
+
+.txtContainer{
+    margin-right: 30%;
+}
+
+.myList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin:5% auto 5% auto;
+    font-size: 0.7em;
+    color:  hsl(235, 45%, 61%);
+}
+
+.cardBkg{
+    height: 117px;
+    width: 90%;
+    margin: 20px auto auto auto;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 13px;
+}
+
+.cardLaier{
+    height: 80px;
+    width: 100%;
+    background-color: #1c1f4a;
+    border-radius: 12px;
+}
+
+.cardLaier:hover{
+    background-color: hsl(235, 42%, 52%);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:95%;
+    margin: 4% 5% 1% 5%;
+}
+
+.nameCard{
+    font-size: 0.8em;
+}
+
+.imgContainer{
+    margin-right: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    float: initial;
-    height:330px ;
-    width: 285px;
-    background-color: #4f4fd8 ;
-    border-radius: 10px;
-    position:absolute;
-    top:0%;
-    left:0%;
-    color: rgb(255, 255, 255);
+    justify-content: flex-start;
 }
 
-#manPhoto{
-    height:75px;
-    width:75px;
-    border:2px solid white ;
-    border-radius:40px;
-    position:absolute;
-    top:9.8%;
-    left:5.8%;
-}
-
-#smalestText{
-    position: absolute;
-    top:43.8%;
-    left:5.8%;
-    font-size: 0.6rem;
-}
-
-#nameProfile{
-    position: absolute;
-    top:48%;
-    left:5%;
-    font-size: 2.5rem;
-}
-
-#times{ display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 77%;
-    left:6%;
-    color: #6f76c8;
-    font-size: 0.9rem;
-}
-#myList{
-    list-style: none;
-}
-
-#dailyT{
-margin-bottom: 15px;
-}
-#weeklyT{
-    margin-bottom: 15px;
-}
-#monthlyT{
-    margin-bottom: 15px;
-}
-
-.boxLaier{
-    height:100px;
-    width:285px;
-    border-radius: 10px;
-
-}
-
-.box{
-    height:173px;
-    width:285px;
-    background-color:hsl(235, 46%, 20%);
-    border-radius: 10px;
-}
-
-.boxPosition{
-    position: absolute;
-    top:49%;
-}
-
-#workLaier{
-    background: hsl(15, 100%, 70%) url(./images/icon-work.svg) no-repeat right;
-    background-position-x: 95%;
-    background-position-y: -35%;
-    position: absolute;
-    left: 27% ;
-    top:16.8%;
-}
-
-#playLaier{
-    background: hsl(195, 74%, 62%) url(./images/icon-play.svg )no-repeat right;
-    background-position-x: 95%;
-    background-position-y: -35%;
-    position: absolute;
-    left:50%;
-    top:16.8%;
-}
-
-#studyLaier{
-    background:hsl(348, 100%, 68%) url(./images/icon-study.svg )no-repeat right;
-    background-position-x: 95%;
-    background-position-y: -35%;
-    position: absolute;
-    left:73%;
-    top:16.8%;
-}
-
-#exerciseLaier{
-    background:hsl(145, 58%, 55%) url(./images/icon-exercise.svg) no-repeat right ;
-    background-position-x: 95%;
-    background-position-y: -5%;
-    position: absolute;
-    left: 27% ;
-    top:53% ;
-}
-
-#socialLaier{
-    background:hsl(264, 64%, 52%) url(./images/icon-social.svg) no-repeat right;
-    background-position-x: 95%;
-    position: absolute;
-    left:50%; 
-    top:53% ;
-}
-
-#selfcareLaier{
-    background:hsl(43, 84%, 65%) url(./images/icon-self-care.svg) no-repeat right;
-    background-position-x: 95%;
-    background-position-y: -35%;
-    position: absolute;
-    left:73%;
-    top:53%;
-}
-
-.titleBox{
-    font-size: 1rem;
-    color:white;
-    display: inline-block;
-    margin: 8% 0% 0% 5% ;
-}
-
-.dootsBox{
-    position: absolute;
-    top:14%;
-    left: 88%;
+.imgSize{
     width: 15px;
 }
 
-.timeBox{
-    color: white;
-    font-size:2.5rem;
-    position: absolute;
-    left: 5%;
-    top: 45%;
+.timesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2% 5% 2% 5%;
 }
 
-.lTimeBox{
-    font-size: 0.8rem;
-    position:absolute;
-    color: #6f76c8;
-    top:77%;
-    left: 5%;
+.lastWeekT{
+    font-size: 0.6em;
+    color:  hsl(235, 45%, 61%);
+}
+
+#workCard{
+    background:hsl(15, 100%, 70%) url(images/icon-work.svg) no-repeat right top ;
+    background-position-y:-10px;
+    background-position-x: 245px;
+}
+
+#playCard{
+    background:hsl(195, 74%, 62%) url(images/icon-play.svg) no-repeat right top ;
+    background-position-y:-10px;
+    background-position-x: 245px;
+}
+
+#studyCard{
+    background: hsl(348, 100%, 68%) url(images/icon-study.svg) no-repeat right top ;
+    background-position-y:-10px;
+    background-position-x: 245px;
+}
+
+#exerciseCard{
+    background:  hsl(145, 58%, 55%) url(images/icon-exercise.svg) no-repeat right top ;
+    background-position-y:-1px;
+    background-position-x: 245px;
+}
+
+#socialCard{
+    background:hsl(264, 64%, 52%) url(images/icon-social.svg) no-repeat right top ;
+    background-position-y:-10px;
+    background-position-x: 245px;
+}
+
+#selfCareCard{
+    background:hsl(43, 84%, 65%) url(images/icon-self-care.svg) no-repeat right top ;
+    background-position-y:-11px;
+    background-position-x: 255px;
+} 
+
+
+.attribution{
+    font-size: 0.7em;
+    margin: 10% 0% 2% 17%;
+
+
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:699px){
+
+    *{
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Rubik', sans-serif;
+        font-weight: lighter;
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background-color:hsl(226, 43%, 10%);
+        color: white;
+    }
+    
+    .pageContainer{
+        margin-top:10%;
+    }
+
+    .gridContainer{
+        display: grid;
+        grid-template-rows: 1f 1f 1f 1f;
+        grid-template-columns:1fr 1fr ;
+        gap: 15px;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .profileBackground{
+        background-color: #1c1f4a;
+        border-radius: 12px;
+        height: 123px;
+        width: 90%;
+        margin: auto;
+        grid-column: 1 / span 2;
+    }
+    
+    .profileLaier{
+        height: 77px;
+        width: 100%;
+        background-color: hsl(246, 80%, 60%);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+    
+    .profileLaier p{
+        font-size: 0.6em;
+    }
+    
+    .profileLaier h1{
+        font-size: 1.2em;
+    }
+    
+    .photoContainer img{
+        width: 45px;
+        border: 2px white solid;
+        border-radius: 50%;
+        margin-left: 32%;
+    }
+    
+    .txtContainer{
+        margin-right: 30%;
+    }
+    
+    .myList{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin:5% auto 5% auto;
+        font-size: 0.7em;
+        color:  hsl(235, 45%, 61%);
+    }
+    
+    .cardBkg{
+        height: 117px;
+        width: 90%;
+        margin: 20px auto auto auto;
+        display: flex;
+        align-items: flex-end;
+        border-radius: 13px;
+    }
+    
+    .cardLaier{
+        height: 80px;
+        width: 100%;
+        background-color: #1c1f4a;
+        border-radius: 12px;
+    }
+
+    .cardLaier:hover{
+        background-color: hsl(235, 42%, 52%);
+    }
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:95%;
+        margin: 4% 5% 1% 5%;
+    }
+    
+    .nameCard{
+        font-size: 0.8em;
+    }
+    
+    .imgContainer{
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .imgSize{
+        width: 15px;
+    }
+    
+    .timesContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2% 5% 2% 5%;
+    }
+    
+    .lastWeekT{
+        font-size: 0.6em;
+        color:  hsl(235, 45%, 61%);
+    }
+    
+    #workCard{
+        background:hsl(15, 100%, 70%) url(images/icon-work.svg) no-repeat right top ;
+        background-position-y:-10px;
+        background-position-x: 115px;
+    }
+    
+    #playCard{
+        background:hsl(195, 74%, 62%) url(images/icon-play.svg) no-repeat right top ;
+        background-position-y:-10px;
+        background-position-x: 115px;
+    }
+    
+    #studyCard{
+        background: hsl(348, 100%, 68%) url(images/icon-study.svg) no-repeat right top ;
+        background-position-y:-10px;
+        background-position-x: 115px;
+    }
+    
+    #exerciseCard{
+        background:  hsl(145, 58%, 55%) url(images/icon-exercise.svg) no-repeat right top ;
+        background-position-y:-1px;
+        background-position-x: 115px;
+    }
+    
+    #socialCard{
+        background:hsl(264, 64%, 52%) url(images/icon-social.svg) no-repeat right top ;
+        background-position-y:-10px;
+        background-position-x: 120px;
+    }
+    
+    #selfCareCard{
+        background:hsl(43, 84%, 65%) url(images/icon-self-care.svg) no-repeat right top ;
+        background-position-y:-11px;
+        background-position-x: 125px;
+    } 
+
+    .attribution{
+        font-size: 0.7em;
+        margin: 10% 20% 2% 30%;
+    
+
+}
+
+
+}
+
+
+@media screen and (min-width:700px) {
+
+  *{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    scroll-behavior: smooth;
+   }
+
+    body{
+        background-color:hsl(226, 43%, 10%);
+        color: white;
+    }  
+
+    .pageContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8%;
+        width: 100%vw;
+    }
+
+    .gridContainer{
+        display: grid;
+        grid-template-rows: 221px 221px;
+        grid-template-columns:1fr 1fr 1fr 1fr ;
+        gap: 15px;
+        width: 94.2%;
+    }
+    
+
+    .profileBackground{
+        background-color: #1c1f4a;
+        border-radius: 12px;
+        height:100%;
+        width:100%;  
+        grid-row: 1 / span 2;
+    }
+    
+    .profileLaier{
+        height: 340px;
+        max-width: 100%;
+        background-color:#4f4fd8;;
+        border-radius: 12px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .photoContainer{
+        margin:15% 80% 10% 2%;
+    }
+
+
+    .photoContainer img{
+        width: 80px;
+        border: 2px white solid;
+        border-radius: 50%;
+    }
+    
+    .txtContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 44%;
+      margin-right:45%;
+     
+    }
+
+    .txtContainer h1{
+        font-size: 2.3em;
+    }
+
+    
+
+   .listContainer{
+      margin-top: 25px;
+
+    }
+    
+    .myList{
+        list-style: none;
+        font-size: 0.9em;
+        color:  hsl(235, 45%, 61%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .myList li{
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+    
+    .cardBkg{
+        height: 215px;
+        width: 100%;
+        margin: auto auto auto auto;
+        display: flex;
+        align-items: flex-end;
+        border-radius: 13px;
+    }
+    
+    .cardLaier{
+        height: 174px;
+        width: 100%;
+        background-color: #1c1f4a;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .cardLaier:hover{
+        background-color: hsl(235, 42%, 52%);
+    }
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:90%;
+        margin: 4% 5% 1% 5%;
+    }
+    
+    .nameCard{
+        font-size: 1.0em;
+    }
+    
+    .imgContainer{
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .imgSize{
+        width: 15px;
+    }
+    
+    .timesContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start ;
+        margin:3% 60% 7% 2%;
+    }
+
+    .times{
+        font-size: 2.6em;
+    }
+    
+    .lastWeekT{
+        font-size: 0.7em;
+        color:  hsl(235, 45%, 61%);
+    }
+
+    #workCard{
+        background:hsl(15, 100%, 70%) url(images/icon-work.svg) no-repeat right top ;
+        background-position-y:-10px;
+        background-position-x: 210px;
+    }
+    
+    #playCard{
+        background:hsl(195, 74%, 62%) url(images/icon-play.svg) no-repeat right top ;
+        background-position-y:-10px;
+        background-position-x: 210px;
+    }
+    
+    #studyCard{
+        background: hsl(348, 100%, 68%) url(images/icon-study.svg) no-repeat right top ;
+        background-position-y:-10px;
+        background-position-x: 210px;
+    }
+    
+    #exerciseCard{
+        background:  hsl(145, 58%, 55%) url(images/icon-exercise.svg) no-repeat right top ;
+        background-position-y:-1px;
+        background-position-x: 210px;
+    }
+    
+    #socialCard{
+        background:hsl(264, 64%, 52%) url(images/icon-social.svg) no-repeat right top ;
+        background-position-y:-10px;
+        background-position-x: 210px;
+    }
+    
+    #selfCareCard{
+        background:hsl(43, 84%, 65%) url(images/icon-self-care.svg) no-repeat right top ;
+        background-position-y:-11px;
+        background-position-x: 210px;
+    }
+
+    .attribution{
+            font-size: 0.7em;
+            margin: 10% auto 2% auto;
+        
+
+    }
+
 }

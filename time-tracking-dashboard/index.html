@@ -2,78 +2,138 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" href="./style/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./style/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./style/images/favicon-32x32.png">
   <title>Frontend Mentor | Time tracking dashboard</title>
-
 </head>
 <body>
-<div id="container">
-  <header>
-    <div id="profileLaier">
-      <div id="profile">
-          <img id="manPhoto" src="./style/images/image-jeremy.png" alt="photo of black man smiling,wearing jeans jacket and cap">
-          <p id=smalestText>Report for</p>
-          <p id="nameProfile">Jeremy <br> Robson</p>
-        </div >
-       <nav id="times">
-        <ul id="myList">
-          <li id="dailyT">Daily</li>
-          <li id="weeklyT">Weekly</li>
-          <li id="monthlyT">Monthly</li>
-        </ul>
-       </nav>
-     </div>
-  </header>
-  <section>
-    <div id="workLaier" class="boxLaier">
-      <div id="work" class="box boxPosition">
-        <span class="titleBox">Work</span><img class="dootsBox" src="./style/images/icon-ellipsis.svg" alt="tree gray doots">
-        <h2 id="hourW" class="timeBox">5hrs</h2>
-        <span id="lHourW" class="lTimeBox">Last Week - 7hrs</span>
+  <div class="pageContainer">
+    <div class="gridContainer">
+
+      <div class="profileBackground">
+        <div class="profileLaier">
+          <div class="photoContainer">
+              <img src="style/images/image-jeremy.png" alt="Jeremy Robson photo">
+          </div>
+          <div class="txtContainer">
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="listContainer">
+          <ul class="myList">
+            <li id="daybtn">Daily</li>
+            <li id="weekbtn" >Weekly</li>
+            <li id="monthbtn">Monthly</li>
+          </ul>
+        </div>
+      </div>
+      <div id="workCard" class="cardBkg">
+        <div class="cardLaier">
+          <div class="nav">
+            <p class="nameCard">Work</p>
+            <div class="imgContainer">
+              <img class="imgSize"src="./style/images/icon-ellipsis.svg" alt="">
+            </div>
+          </div>
+          <div class="timesContainer">
+            <h2 id="workTime" class="times">5hrs</h2>
+            <div class="lTimeContainer">
+              <p  id="worklwTime"class="lastWeekT">Last Week - 7hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="playCard" class="cardBkg">
+        <div class="cardLaier">
+          <div class="nav">
+            <p class="nameCard">Play</p>
+            <div class="imgContainer">
+              <img class="imgSize"src="./style/images/icon-ellipsis.svg" alt="">
+            </div>
+          </div>
+          <div class="timesContainer">
+            <h2 id="playTime"class="times">1hr</h2>
+            <div class="lTimeContainer">
+              <p id="playlwTime" class="lastWeekT">Last Week - 2hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="studyCard" class="cardBkg">
+        <div class="cardLaier">
+          <div class="nav">
+            <p class="nameCard">Study</p>
+            <div class="imgContainer">
+              <img class="imgSize"src="./style/images/icon-ellipsis.svg" alt="">
+            </div>
+          </div>
+          <div class="timesContainer">
+            <h2  id="studyTime"class="times">0hr</h2>
+            <div class="lTimeContainer">
+              <p id="studylwTime" class="lastWeekT">Last Week - 1hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="exerciseCard" class="cardBkg">
+        <div class="cardLaier">
+          <div class="nav">
+            <p class="nameCard">Exercise</p>
+            <div class="imgContainer">
+              <img class="imgSize"src="./style/images/icon-ellipsis.svg" alt="">
+            </div>
+          </div>
+          <div class="timesContainer">
+            <h2 id="exerciseTime" class="times">1hr</h2>
+            <div class="lTimeContainer">
+              <p id="exerciselwTime" class="lastWeekT">Last Week - 1hr</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="socialCard" class="cardBkg">
+        <div class="cardLaier">
+          <div class="nav">
+            <p class="nameCard">Social</p>
+            <div class="imgContainer">
+              <img class="imgSize"src="./style/images/icon-ellipsis.svg" alt="">
+            </div>
+          </div>
+          <div class="timesContainer">
+            <h2 id="socialTime" class="times">1hr</h2>
+            <div class="lTimeContainer">
+              <p id="sociallwTime"class="lastWeekT">Last Week - 3hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="selfCareCard" class="cardBkg">
+        <div class="cardLaier">
+          <div class="nav">
+            <p class="nameCard">Self Care</p>
+            <div class="imgContainer">
+              <img class="imgSize"src="./style/images/icon-ellipsis.svg" alt="">
+            </div>
+          </div>
+          <div class="timesContainer">
+            <h2 id="selfCareTime" class="times">0hr</h2>
+            <div class="lTimeContainer">
+              <p id="selfcarelwTime"class="lastWeekT">Last Week - 1hr</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div id="playLaier" class="boxLaier">
-      <div id="play" class="box boxPosition">
-        <span class="titleBox">Play</span><img class="dootsBox" src="./style/images/icon-ellipsis.svg" alt="tree gray doots">
-        <h2 id="hourP" class="timeBox">1hr</h2>
-        <span id="lHourP" class="lTimeBox">Last Week - 2hrs</span>
-      </div>
-    </div>
-  <div id="studyLaier" class="boxLaier">
-    <div id="study" class="box boxPosition">
-      <span class="titleBox">Study</span><img class="dootsBox" src="./style/images/icon-ellipsis.svg" alt="tree gray doots">
-      <h2 id="hourS" class="timeBox">0hrs</h2>
-      <span id="lHourS" class="lTimeBox">Last Week - 1hr</span>
-    </div>
-  </div> 
-  <div id="exerciseLaier" class="boxLaier">
-    <div id="exercise" class="box boxPosition">
-      <span class="titleBox">Exercise</span><img class="dootsBox" src="./style/images/icon-ellipsis.svg" alt="tree gray doots">
-      <h2 id="hourE" class="timeBox">1hr</h2>
-      <span id="lHourE" class="lTimeBox">Last Week - 1hr</span>
-    </div>
+    <div class="attribution">
+     <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Twfonseca" target="_blank">Tawan Fonseca</a>.</p> 
   </div>
-  <div id="socialLaier" class="boxLaier">  
-    <div id="social" class="box boxPosition">
-      <span class="titleBox">Social</span><img class="dootsBox" src="./style/images/icon-ellipsis.svg" alt="tree gray doots">
-      <h2 id="hourSo" class="timeBox">1hr</h2>
-      <span id="lHourSo" class="lTimeBox">Last Week - 3hr </span>
-    </div>
-  </div>  
-  <div id="selfcareLaier" class="boxLaier">
-    <div id="selfcare" class="box boxPosition">
-      <span class="titleBox">Self Care</span><img class="dootsBox" src="./style/images/icon-ellipsis.svg" alt="tree gray doots">
-      <h2 id="hourSc" class="timeBox">0hrs</h2>
-      <span id="lHourSc" class="lTimeBox">Last Week - 1hr</span>
-    </div>
-  </div>  
-</section>  
 </div>
-   <script type="text/javascript" src="./script/script.js"></script>
+<script src="script/script.js"></script>
 </body>
 </html>
