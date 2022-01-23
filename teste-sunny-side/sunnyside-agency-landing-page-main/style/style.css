@@ -1,9 +1,42 @@
-/*font-family: 'Rubik', sans-serif;
-font-family: 'Rubik', sans-serif;*/
-
-
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;*/
 *{
      box-sizing: border-box;
      padding: 0%;
      margin:0%;
 }
+
+#headerContainer{
+     height: 90vh;
+     width:100vw;
+     color: white;
+     position: relative;
+     background:url(./images/mobile/image-header.jpg)
+     no-repeat; 
+     background-size: cover;
+     background-position-x:center;
+     font-family: 'Fraunces', serif;
+     letter-spacing: 0.5em;
+     font-size: 1.5em;
+     text-align: center;
+}
+
+#navContainer{ 
+     display: flex;
+     justify-content: space-between;
+     width:90%;
+     margin:0% auto 0% auto
+}
+
+#navContainer img{
+  margin-top: 14%;
+}
+ 
+#titleContainer{
+     margin-top: 40%;
+}
+
+
+
+
+
