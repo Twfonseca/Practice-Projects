@@ -36,6 +36,34 @@ font-family: 'Fraunces', serif;*/
      margin-top: 40%;
 }
 
+#imgEgg{
+     width: 100vw;
+     height: 50vh;
+}
+
+#transformContainer{    
+     width: 100vw;
+     height: 60vh;
+     text-align: center;
+}
+
+#textContainer{
+     width: 90vw;
+     margin: auto ;
+}
+
+.titleTxt{
+     font-family: 'Fraunces', serif;
+     color: hsl(212, 27%, 19%);
+     font-size: 2em;
+     margin: 10% 10% 4% 10%;
+}
+
+.sectionDescript{
+     font-family: 'Barlow', sans-serif;
+     color: hsl(213, 9%, 39%);
+     font-weight: bold;
+}
 
 
 
