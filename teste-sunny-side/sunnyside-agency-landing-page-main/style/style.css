@@ -1,69 +1,117 @@
 /*font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif;*/
 *{
-     box-sizing: border-box;
-     padding: 0%;
-     margin:0%;
+box-sizing: border-box;
+padding: 0%;
+margin:0%;
 }
 
 #headerContainer{
-     height: 90vh;
-     width:100vw;
-     color: white;
-     position: relative;
-     background:url(./images/mobile/image-header.jpg)
+height: 90vh;
+width:100vw;
+color: white;
+position: relative;
+background:url(./images/mobile/image-header.jpg)
      no-repeat; 
-     background-size: cover;
-     background-position-x:center;
-     font-family: 'Fraunces', serif;
-     letter-spacing: 0.5em;
-     font-size: 1.5em;
-     text-align: center;
+background-size: cover;
+background-position-x:center;
+font-family: 'Fraunces', serif;
+letter-spacing: 0.5em;
+font-size: 1.5em;
+text-align: center;
 }
 
 #navContainer{ 
-     display: flex;
-     justify-content: space-between;
-     width:90%;
-     margin:0% auto 0% auto
+display: flex;
+justify-content: space-between;
+width:90%;
+margin:0% auto 0% auto
 }
 
 #navContainer img{
-  margin-top: 14%;
+margin-top: 14%;
 }
  
 #titleContainer{
-     margin-top: 40%;
+margin: 20% auto 10% auto;
+font-size: 0.8em;
 }
 
 #imgEgg{
-     width: 100vw;
-     height: 50vh;
+width: 100vw;
+height: 50vh;
 }
 
 #transformContainer{    
-     width: 100vw;
-     height: 60vh;
-     text-align: center;
+width: 100vw;
+height: 60vh;
+text-align: center;
 }
 
 #textContainer{
-     width: 90vw;
-     margin: auto ;
+width: 90vw;
+height: 55vh;
+margin: auto ;
 }
 
 .titleTxt{
-     font-family: 'Fraunces', serif;
-     color: hsl(212, 27%, 19%);
-     font-size: 2em;
-     margin: 10% 10% 4% 10%;
+font-family: 'Fraunces', serif;
+color: hsl(212, 27%, 19%);
+font-size: 2em;
+font-weight: 900; 
+margin: 20% 10% 8% 10%;
 }
 
 .sectionDescript{
-     font-family: 'Barlow', sans-serif;
-     color: hsl(213, 9%, 39%);
-     font-weight: bold;
+font-family: 'Barlow', sans-serif;
+color: hsl(232, 10%, 55%);
+font-weight: 600;
+font-size:1.1em ;
+line-height: 1.7rem;
+margin-bottom: 10%;
 }
+
+#linkContainer{display: flex;flex-direction: column;align-items: center;justify-content: center;cursor: pointer;
+}
+
+#linkStyle{
+font-family: 'Fraunces', serif;
+font-weight: 900; 
+font-size: 0.95em;
+text-decoration: none;
+z-index: 1;
+color: hsl(212, 27%, 19%);
+}
+
+.linkStyleBkg{
+background-color: hsl(51, 100%, 49%, 0.6);
+width: 35vw;
+height: 0.7rem;
+position: relative;
+top: -10px;
+border-radius: 0.5rem;
+}
+
+.linkStyleBkg:hover{
+background-color:  hsl(51, 100%, 49%);
+width: 35vw;
+height: 0.7rem;
+z-index: -1;
+
+}
+
+#linkStyle:visited{
+color: hsl(212, 27%, 19%);
+     }
+
+
+
+
+
+
+
+
+
 
 
 
