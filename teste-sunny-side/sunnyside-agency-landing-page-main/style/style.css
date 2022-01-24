@@ -6,6 +6,13 @@ padding: 0%;
 margin:0%;
 }
 
+#pageContainer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
 #headerContainer{
 height: 90vh;
 width:100vw;
@@ -37,7 +44,7 @@ margin: 20% auto 10% auto;
 font-size: 0.8em;
 }
 
-#imgEgg{
+.sectioBanner{
 width: 100vw;
 height: 50vh;
 }
@@ -48,7 +55,7 @@ height: 60vh;
 text-align: center;
 }
 
-#textContainer{
+.textContainer{
 width: 90vw;
 height: 55vh;
 margin: auto ;
@@ -84,7 +91,7 @@ color: hsl(212, 27%, 19%);
 }
 
 .linkStyleBkg{
-background-color: hsl(51, 100%, 49%, 0.6);
+background-color: hsl(51, 100%, 49%, 0.3);
 width: 35vw;
 height: 0.7rem;
 position: relative;
@@ -105,11 +112,12 @@ color: hsl(212, 27%, 19%);
      }
 
 
+#bannerContainer{
+margin-top:100%;
 
 
 
-
-
+}
 
 
 
