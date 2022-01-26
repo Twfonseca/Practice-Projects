@@ -7,10 +7,10 @@ margin:0%;
 }
 
 #pageContainer{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 #headerContainer{
@@ -76,9 +76,15 @@ font-weight: 600;
 font-size:1.1em ;
 line-height: 1.7rem;
 margin-bottom: 10%;
+text-align: center;
 }
 
-#linkContainer{display: flex;flex-direction: column;align-items: center;justify-content: center;cursor: pointer;
+#linkContainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+cursor: pointer;
 }
 
 #linkStyle{
@@ -114,13 +120,46 @@ color: hsl(212, 27%, 19%);
 
 #bannerContainer{
 margin-top:100%;
+}
 
+#graphicDesignSection{
+background: url(./images/mobile/image-graphic-design.jpg) no-repeat;
+background-size: cover;
+height: 95vh;
+width: 100vw;
+}
 
+.secondTxtContainer{
+text-align: center;
+width: 90vw;
+margin: 100% auto 0% auto;
+}
+
+.secondTitleStyle{
+font-family: 'Fraunces', serif;
+font-size: 1.55em;
+font-weight: 900;
+color: hsl(167, 40%, 24%);
+margin:0% auto 8% auto;
 
 }
 
+.secondDescriptStyle{
+font-family: 'Barlow', sans-serif;
+font-weight:600 ;
+color: hsl(167, 40%, 24%);;
+margin: 0% auto 0% auto;
+}
+
+#photographySection{
+background: url(./images/mobile/image-photography.jpg) no-repeat;
+background-size: cover;
+height: 95vh;
+width: 100vw;
+}
 
 
-
-
+#clientGridContainer{
+width: 100vw;
+}
 
