@@ -158,8 +158,52 @@ height: 95vh;
 width: 100vw;
 }
 
+#clientTestemonial{
+text-align: center;     
+}
+
+#titleSection{
+margin: 20% 5% 22% 5%;
+color: hsl(232, 10%, 55%);
+letter-spacing: 0.3em;
+font-weight:bolder ;
+font-size: 1rem;
+}
+
 
 #clientGridContainer{
 width: 100vw;
+}
+
+.clientContainer{
+     margin-bottom:19% ;
+}
+
+.clientImg{
+width: 19%;
+border-radius: 50%;
+}
+
+.clientComment{
+margin:10% 10% 10% 10% ;
+color:hsl(213, 9%, 39%);
+font-family: 'Barlow', sans-serif;
+font-weight:600 ;
+font-size: 1.1em;
+line-height: 1.7rem;
+}
+
+.clientName{
+font-family: 'Fraunces', serif;
+font-size: 1.1em;
+font-weight:800 ;
+margin-bottom:0.5em ;
+}
+
+.clientWork{
+font-family: 'Barlow', sans-serif;
+color: hsl(210, 4%, 67%);
+font-size: 0.8rem;
+font-weight:600 ;
 }
 
