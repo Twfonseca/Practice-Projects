@@ -207,3 +207,19 @@ font-size: 0.8rem;
 font-weight:600 ;
 }
 
+#photosGrid{
+display: grid;
+grid-template:1fr 1fr/1fr 1fr;
+gap:0px;
+}
+
+.gridImg{
+height: 100%;
+width: 100%;
+}
+
+#footerSection{
+height: 70vh;
+width: 100vw;
+background-color:#8fe0d0;
+}
