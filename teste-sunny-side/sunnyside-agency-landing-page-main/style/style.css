@@ -219,7 +219,52 @@ width: 100%;
 }
 
 #footerSection{
-height: 70vh;
+height: 66vh;
 width: 100vw;
 background-color:#8fe0d0;
+display: flex;
+flex-direction: column;
+align-self: center;
+justify-content: space-between;
+font-family: 'Barlow', sans-serif;
+}
+
+#footerLogo{
+margin: 20% 29% -5% 29%;
+height: 30px;
+width: 157px;
+}
+
+#footerLinks{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 80vw;
+list-style: none;
+color: hsl(168, 34%, 41%);
+font-weight: 600;
+font-size:1.1rem;
+margin: 0% 8% 0% 8%;
+}
+
+#socialMidia{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 55vw;
+margin: 0% 10% 0% 20%;
+}
+
+.attribution{
+     width: 90vw;
+     font-size: 0.8rem;
+     font-family: 'Barlow', sans-serif;
+     font-weight: 600;
+     margin: -5% 8% 5% 8%;
+     color: hsl(168, 34%, 41%);
+}
+
+.attribution a, a:visited{
+     text-decoration: none;
+   
 }
