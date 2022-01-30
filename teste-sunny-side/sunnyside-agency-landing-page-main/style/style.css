@@ -1,5 +1,4 @@
-/*font-family: 'Barlow', sans-serif;
-font-family: 'Fraunces', serif;*/
+
 *{
 box-sizing: border-box;
 padding: 0%;
@@ -11,6 +10,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
 }
 
 #headerContainer{
@@ -32,6 +32,10 @@ display: flex;
 justify-content: space-between;
 width:90%;
 margin:0% auto 0% auto
+}
+
+.navBiggerSize{
+  display:none;
 }
 
 #navContainer img{
@@ -107,6 +111,7 @@ text-align: center;
 width: 90vw;
 height: 55vh;
 margin: auto ;
+text-align: center;
 }
 
 .titleTxt{
@@ -171,10 +176,11 @@ margin-top:100%;
 }
 
 #graphicDesignSection{
-background: url(./images/mobile/image-graphic-design.jpg) no-repeat;
-background-size: cover;
-height: 95vh;
 width: 100vw;
+}
+
+#cherryBkg{
+     width: 100vw;
 }
 
 .secondTxtContainer{
@@ -316,3 +322,123 @@ margin: 0% 10% 0% 20%;
      text-decoration: none;
    
 }
+
+/* @media screen and ( min-width:440px){
+
+#headerContainer{
+          height: 93vh;
+          width:100vw;
+          color: white;
+          position: relative;
+          background:url(./images/mobile/image-header.jpg)
+                         no-repeat; 
+          background-size: cover;
+          background-position-x:center;
+          background-position-y:80%;
+          font-family: 'Fraunces', serif;
+          font-size: 1.5em;
+          text-align: center;
+     }
+
+     #footerLogo{
+          margin: 20% 0% -5% 35%;
+          height: 30px;
+          width: 157px;
+          }
+
+     #footerLinks{
+          margin: auto;
+     }
+
+     .attribution{
+          margin-left: 17%;
+     }  
+     
+     #graphicDesignSection{
+          background: url(./images/mobile/image-graphic-design.jpg) no-repeat;
+          background-size: cover;
+          background-position-x:center;
+          background-position-y:10%;
+          height: 95vh;
+          width: 100vw;
+          }
+          #photographySection{
+          background: url(./images/mobile/image-photography.jpg) no-repeat;
+          background-size: cover;
+          background-position-x:center;
+          background-position-y:10%;
+          height: 95vh;
+          width: 100vw;
+          }
+
+          .secondTxtContainer{
+               margin: 80% auto 0% auto;
+          }
+}
+
+ @media screen and ( min-width:762px)  {
+
+     .sectioBanner{
+          width: 100vw;
+          height: 70vh;
+
+     }
+
+     .secondTxtContainer{
+          margin:77% auto 0% auto;
+     }
+
+     .secondTitleStyle{
+          margin-bottom: 2%;
+     } 
+
+}
+
+ @media screen and (min-width:761px) {
+     *{
+          box-sizing: border-box;
+          padding: 0%;
+          margin:0%;
+          }
+
+  #headerContainer{
+  height: 93vh;
+  width:100vw;
+  color: white;
+  position: relative;
+  background:url(./images/desktop/image-header.jpg)
+                    no-repeat; 
+  background-size: cover;
+  background-position-x:center;
+  background-position-y:80%;
+  font-family: 'Fraunces', serif;
+  font-size: 1.5em;
+  text-align: center;
+               }
+
+.navBiggerSize{
+     display: flex;
+}
+
+#logoDesktopContainer{
+     margin-top: 5%;
+}
+
+#linksDeskTop{
+     display: flex;
+     list-style: none;
+     margin-top: 4.5%;
+}
+
+#btnDeskTop{
+     border:1px transparent;
+     background-color: white;
+     width: 20%;
+     border-radius: 25px;
+}
+     
+   #navContainer,#menuBtn,  #detailPopUp, #menuPopUp {
+        display: none;
+   }
+
+}  */
