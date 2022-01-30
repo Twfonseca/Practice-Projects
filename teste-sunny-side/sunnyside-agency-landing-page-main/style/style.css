@@ -14,7 +14,7 @@ justify-content: center;
 }
 
 #headerContainer{
-height: 90vh;
+height: 93vh;
 width:100vw;
 color: white;
 position: relative;
@@ -23,7 +23,6 @@ background:url(./images/mobile/image-header.jpg)
 background-size: cover;
 background-position-x:center;
 font-family: 'Fraunces', serif;
-letter-spacing: 0.5em;
 font-size: 1.5em;
 text-align: center;
 }
@@ -38,10 +37,59 @@ margin:0% auto 0% auto
 #navContainer img{
 margin-top: 14%;
 }
+
+#detailPopUp{
+border: 15px solid hsl(30, 100%, 99%);;
+border-top: 15px solid transparent;
+border-left: 15px solid transparent;
+position: absolute;
+right:7%;
+top: 15%;
+}
+
+.menuPopUpOn{
+width: 86%;
+position: absolute;
+top: 20%;
+left: 7%;
+background-color: hsl(30, 100%, 99%);
+padding: 50px;
+color:  hsl(232, 10%, 55%);
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+font-size: 1.1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+ }
+
+ .menuPopUpOff{
+     display: none;
+ }
+
+ #contactBtn{
+border: 1px transparent solid;
+border-radius:20px;
+padding: 15px;
+width: 45%;
+font-family: 'Fraunces', serif;
+background-color: yellow;
+font-weight: 00;
+ }
+
+ #firstNavList{
+     list-style:none;
+     margin-top: 5%;
+ }
+
+ #firstNavList li{
+margin-bottom: 45%;
+ }
  
 #titleContainer{
 margin: 20% auto 10% auto;
 font-size: 0.8em;
+letter-spacing: 0.4em;
 }
 
 .sectioBanner{
