@@ -14,21 +14,59 @@ margin:0%;
      position: relative;
 }
 
-.navMobile{
+.navMobile, .txtContainer {
      position:absolute;
+}
+
+.navMobile{
+     top:6%;
+     width: 100%;
+     text-align: center;
+}
+
+.menuMobile{
+     margin-left: 50%;
+     position: relative;
+     bottom:10px;
 }
 
 .txtContainer{
-     position:absolute;
+width: 100%;
+top:33%;
+color: white;
+font-family: 'Fraunces', serif;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.6rem;
+font-size: 1.2rem;
+font-weight: bolder;
 }
 
-
-
-
-
+.arrowStyle{
+     margin-top: 11%;
+}
 
 .headerImg{
      width: 100%;
+}
+
+.menuPopUpContainer{
+     width: 100%;
+     position: absolute;
+     z-index: 1;
+}
+
+.menuDetail{
+border: 15px solid hsl(30, 100%, 99%);;
+border-top: 15px solid transparent;
+border-left: 15px solid transparent;
+position: absolute;
+right:5%;
+top: 55%;  
+}
+
+.menuPopUp{
+
 }
 
 
