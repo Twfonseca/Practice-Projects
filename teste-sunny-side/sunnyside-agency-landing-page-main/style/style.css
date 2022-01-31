@@ -1,11 +1,136 @@
 
+/*font-family: 'Fraunces', serif;
+font-family: 'Barlow', sans-serif;*/
 *{
 box-sizing: border-box;
 padding: 0%;
 margin:0%;
 }
 
-#pageContainer{
+
+.headerContainer{
+     width: 100vw;
+     height: 80vh;
+     position: relative;
+}
+
+.navMobile{
+     position:absolute;
+}
+
+.txtContainer{
+     position:absolute;
+}
+
+
+
+
+
+
+.headerImg{
+     width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#pageContainer{
 display: flex;
 flex-direction: column;
 align-items: center;
