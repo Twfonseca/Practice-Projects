@@ -238,10 +238,68 @@ color: hsl(167, 40%, 24%);
 line-height: 1.7rem;
 }
 
+.TestemonialContainer{
+ position: relative;
+ top: 13rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
 
+.testemonialTitle{
+font-family: 'Fraunces', serif;
+font-size: 1rem;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: 0.3rem;
+margin: 23% 0% 23% 0%;
+color: hsl(210, 4%, 67%);
+}
 
+.clientImg{
+width: 70px;
+border-radius: 50%;
+margin-bottom: 10%;
+}
 
+.clientTestemonial{
+width: 87vw;     
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+font-size:1.1rem;
+color: hsl(213, 9%, 39%);
+margin-bottom: 10%;
+line-height: 1.8rem;
+}
 
+.clientName{
+font-family: 'Fraunces', serif;
+font-weight:900;
+margin-bottom: 3%;
+}
+
+.clientOccupation{
+font-family: 'Barlow', sans-serif;
+font-weight: 700;
+font-size: 0.9rem;
+margin-bottom: 20%;
+color: hsl(210, 4%, 67%);
+}
+
+.gridContainer{
+position: relative;
+top:12rem;
+display: grid;
+grid-template:1fr 1fr/1fr 1fr;
+gap:0px;
+width: 100vw;
+}
+
+.gridImg{
+height: 100%;
+width: 100%;
+}
 
 
 
