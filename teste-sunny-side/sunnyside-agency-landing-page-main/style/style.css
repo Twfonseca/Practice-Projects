@@ -30,6 +30,24 @@ position: relative;
 bottom:10px;
 }
 
+.meunuMobileOff{
+margin-left:45%;
+position: relative;
+bottom:10px;
+display: none;       
+}
+
+.closingMenu{
+display:none;
+}
+
+.closingMenuOn{
+margin-left:47%;
+position: relative;
+bottom:10px;
+}
+      
+
 .txtContainer{
 width: 100%;
 top:33%;
@@ -58,7 +76,10 @@ z-index: 1;
 }
 
 .menuPopUpContainerOff{
-display: none;
+display:none;
+width: 100%;
+position: relative;
+z-index: 1;
 }
 
 .menuDetail{
@@ -301,7 +322,56 @@ height: 100%;
 width: 100%;
 }
 
+.footerContainer{
+height:67vh;
+position: relative;
+top:12rem;
+background-color: hsl(168, 57%, 72%);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
+.imgFtLogoContainer{
+     margin-top:20% ;
+}
+
+.imgFtLogo{
+     width: 160px;
+}
+
+.footerNav{
+list-style: none;
+display: flex;  
+margin: 15% auto 25% auto ;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+color:hsl(168, 34%, 41%);
+font-size: 1.1rem;
+}
+
+.ftLinkStyle{
+margin: 0px 20px 0px 20px
+}
+
+.socialMedia{
+margin: 0px 13px 0px 13px;
+}
+
+.attribution{
+font-size: 0.9rem;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+font-size: 0.8rem;
+width: 90vw;
+text-align: center;
+margin:15%;
+}
+
+.attribution a, a:visited{
+text-decoration: none;
+color:hsl(168, 34%, 41%);
+}
 
 
 
