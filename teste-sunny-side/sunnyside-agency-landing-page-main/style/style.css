@@ -64,9 +64,16 @@ font-weight: bolder;
 margin-top: 11%;
 }
 
-.headerImg, .eggImg,.cupImg, .sectionImg{
+
+
+.headerImg, .desktopHeader, .eggImg,.cupImg, .sectionImg{
 width: 100%;
 height: 100%;
+
+}
+
+.desktopHeader{
+     display: none;
 }
 
 .menuPopUpContainerOn{
@@ -126,20 +133,26 @@ font-family: 'Fraunces', serif;
 font-weight: 700;
 }
 
+.gridOneConainer{
+     display: grid;
+     grid-template:1fr 1fr/ 1fr;
+}
+
 .transformContainer{
 width: 100vw;
-height: 105vh;
+height: 100vh;
 position: relative;
+display: grid;
+grid-template:1fr 1fr/1fr;
 }
 
 .textContainer{
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
 text-align: center;
 width: 80vw;
-margin: auto;
+margin: 15% auto 0% auto ;
 }
 
 .sectionTitle{
@@ -323,7 +336,7 @@ width: 100%;
 }
 
 .footerContainer{
-height:67vh;
+height:70%;
 position: relative;
 top:12rem;
 background-color: hsl(168, 57%, 72%);
@@ -376,7 +389,6 @@ color:hsl(168, 34%, 41%);
 
 
 @media screen and (min-width:450px) {
-     
 }
 
 
