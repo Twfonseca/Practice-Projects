@@ -10,8 +10,8 @@ margin:0%;
 
 .headerContainer{
 width: 100vw;
-height: 100vh;
 position: relative;
+margin-bottom: -5px;
 }
 
 .navMobile, .txtContainer,.sectionDescription2 {
@@ -69,7 +69,6 @@ margin-top: 11%;
 .headerImg, .desktopHeader, .eggImg,.cupImg, .sectionImg{
 width: 100%;
 height: 100%;
-
 }
 
 .desktopHeader{
@@ -234,19 +233,12 @@ top: -10px;
 border-radius: 0.5rem;
 }
 
-.graphiSectionContainer{
-width: 100vw;
-height: 80vh;
-position: relative;
-}
-
-
-.graphicSectionContainer{
-height: 100vh;
+.graphicSectionContainer,.photografySectionContainer{
 width: 100vw;
 text-align: center;
 position: relative;
 top: 13rem;
+margin-bottom: -4px;
 }
 
 .sectionDescription2{
