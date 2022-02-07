@@ -400,7 +400,7 @@ color:hsl(168, 34%, 41%);
           display: block; 
      }
 
-     .headerImg,.navMobile, .gridOneConainer,.graphicSectionContainer,.photografySectionContainer,.headerContainer {
+     .headerImg,.navMobile, .gridOneConainer,.graphicSectionContainer,.photografySectionContainer,.headerContainer,.TestemonialContainer {
           display: none;
      }
 
@@ -472,7 +472,7 @@ color:hsl(168, 34%, 41%);
                          
      .linkStyleBkg{
        background-color: hsla(51, 100%, 49%, 0.2);
-       width: 10vw;
+       width: 20vw;
        height: 0.7rem;
        position: relative;
        top: -10px;
@@ -481,7 +481,7 @@ color:hsl(168, 34%, 41%);
 
      .linkStyleBkg:hover{
           background-color:  hsl(51, 100%, 49%);
-          width: 10vw;
+          width: 20vw;
           height: 0.7rem;
           padding: 2px;
           z-index: -1;     
@@ -489,7 +489,7 @@ color:hsl(168, 34%, 41%);
      
      .linkStyleBkgPink{
           background-color: hsla(7, 99%, 70%, 0.3);
-          width: 10vw;
+          width: 20vw;
           height: 0.7rem;
           position: relative;
           top: -10px;
@@ -498,7 +498,7 @@ color:hsl(168, 34%, 41%);
           
      .linkStyleBkgPink:hover{
           background-color: hsla(7, 99%, 70%);
-          width: 10vw;
+          width: 20vw;
           height: 0.7rem;
           position: relative;
           top: -10px;
@@ -551,15 +551,53 @@ color:hsl(168, 34%, 41%);
           position: relative;
      }
 
+     .transformTex{
+          position:absolute;
+     }
+
      .description{
           position: absolute;
-          width: 50vw;
+          width: 40vw;
+          top: 45%;
+          text-align: center;
+          margin: 5% ;
      }
 
      .imgSectionTwo{
           width: 50vw;
      }
 
-       
+     .dsktpSectionTitle1{
+          font-family: 'Fraunces', serif;
+          font-weight: 900;
+          font-size: 1.5rem;
+          margin-bottom: 5%;
+          color:hsl(167, 40%, 24%);
+     }
+
+     .dsktpSectionP1{
+          font-family: 'Barlow', sans-serif;
+          font-weight: 700;
+          font-size: 0.9rem;
+          color:hsl(167, 40%, 24%);
+          line-height: 1.4rem;
+     }
+
+     .dsktpSectionTitle2{
+          font-family: 'Fraunces', serif;
+          font-weight: 900;
+          font-size: 1.5rem;
+          margin-bottom: 5%;
+          color: hsl(198, 62%, 26%);
+     }
+
+     .dsktpSectionP2{
+          font-family: 'Barlow', sans-serif;
+          font-weight: 700;
+          font-size: 0.9rem;
+          color: hsl(198, 62%, 26%) ;
+          line-height: 1.4rem;
+     }
+
 }
 
