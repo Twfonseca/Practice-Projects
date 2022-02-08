@@ -372,7 +372,6 @@ margin: 0px 13px 0px 13px;
 }
 
 .attribution{
-font-size: 0.9rem;
 font-family: 'Barlow', sans-serif;
 font-weight: 600;
 font-size: 0.8rem;
@@ -384,6 +383,10 @@ margin:15%;
 .attribution a, a:visited{
 text-decoration: none;
 color:hsl(168, 34%, 41%);
+}
+
+.desktopSectionOne,.desktopSectionTwo,.desktopTestemonials,.dkstpGridImages,.desktopFooter{
+     display:none
 }
 
 
@@ -400,7 +403,7 @@ color:hsl(168, 34%, 41%);
           display: block; 
      }
 
-     .headerImg,.navMobile, .gridOneConainer,.graphicSectionContainer,.photografySectionContainer,.headerContainer,.TestemonialContainer {
+     .headerImg,.navMobile, .gridOneConainer,.graphicSectionContainer,.photografySectionContainer,.headerContainer,.TestemonialContainer,.gridContainer,.footerContainer {
           display: none;
      }
 
@@ -461,10 +464,11 @@ color:hsl(168, 34%, 41%);
         width: 3%;
                } 
 
+
      .linkStyle{
        font-family: 'Fraunces', serif;
        font-weight: 900; 
-       font-size: 1.1rem;
+       font-size: 1rem;
        text-decoration: none;
        text-transform: uppercase;
        color: hsl(212, 27%, 19%);
@@ -514,25 +518,30 @@ color:hsl(168, 34%, 41%);
           }
 
      .sectionTitle{
-          margin-top:10% ;
+          margin:10% 10% 7% 10% ;
           font-family: 'Fraunces', serif;
-          font-size: 1.9rem;
+          font-size: 1.8rem;
           font-weight: 900;
           color: hsl(212, 27%, 19%);
-          letter-spacing: 0.1rem;
+          width: 80%;
           }
 
      .sectionDescription{
-          font-size: 1.2rem;    
+          font-size: 1.1rem;    
           font-family: 'Barlow', sans-serif; 
-          font-weight:600;
+          font-weight:500;
           line-height: 1.7rem;
           color: hsl(232, 10%, 55%);  
-          margin-bottom: 10%;
+          margin:7% 10% 10% 10% ;
+          width: 80%;
                }
 
      .transformText,.transImgContainer,.imgSectionGrid{
           width: 50vw;
+     }
+
+     .transformText{
+          text-align: left;
      }
 
      .transImgContainer{
@@ -549,10 +558,6 @@ color:hsl(168, 34%, 41%);
           grid-template:1fr / 1fr 1fr ;
           width: 100vw;
           position: relative;
-     }
-
-     .transformTex{
-          position:absolute;
      }
 
      .description{
@@ -599,5 +604,114 @@ color:hsl(168, 34%, 41%);
           line-height: 1.4rem;
      }
 
+     .desktopTestemonials{
+          text-align: center;
+          display: block;
+     }
+
+     .titleTestemonial{
+          text-transform: uppercase;
+          font-family: 'Fraunces', serif;
+          font-weight: 900;
+          color: hsl(210, 4%, 67%);
+          margin: 10%;
+          letter-spacing: 0.4rem;
+     }
+
+     .containerTestemonials{
+       display:  flex;
+       justify-content: space-around;
+     }
+
+     .containerCleint{
+          text-align: center;
+          width: 30vw;
+          margin-bottom: 10%;
+     }
+
+     .imgClient{    
+     width:85px;
+     border-radius:50%;
+    }
+
+    .testemonialClient{
+         color: hsl(213, 9%, 39%);
+         font-family: 'Barlow', sans-serif;
+         line-height: 1.6rem;
+         font-weight: 600;
+         font-size: 0.9rem;
+         margin: 10% 0% 10% 0%;
+    }
+
+     .nameClient{
+          font-family: 'Fraunces', serif;
+          font-weight: 900;
+          margin-bottom: 4%;
+     } 
+
+     .occupationClient{
+          font-family: 'Barlow', sans-serif;
+          font-weight: 600;
+          font-size: 0.9rem;
+          color:hsl(210, 4%, 67%);
+     }
+
+     .dkstpGridImages{
+          display: grid;
+          grid-template:1fr/ 1fr 1fr 1fr 1fr
+     }
+
+     .dsktpGridImg{
+          width: 100%;
+     }
+
+     .desktopFooter{
+          height: 70vh;
+          background-color:hsl(168, 57%, 72%) ;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .logoFooterContainer{
+          margin:9% 0% 5% 0%;
+     }
+
+     .dsktpfooterImg{
+          width: 160px;
+     }
+
+     .dsktpFooterNav{
+       display: flex;
+       list-style: none;
+       font-family: 'Barlow', sans-serif;
+       font-weight: 600;
+       font-size:1.1rem ;
+       color: hsl(168, 34%, 41%);
+       margin-bottom:25% ;
+     }
+
+     .dsktpfooterLinks{
+          margin:0px 25px 0px 25px ;
+     }
+
+     .dsktpfooterImgs{
+          margin: 0px 13px 0px 13px;
+     }
+
+     .attributionDesktop{
+          font-size: 1rem;
+          font-family: 'Barlow', sans-serif;
+          font-weight: 600;
+          width: 90vw;
+          text-align: center;
+          margin:5%;
+     }
+
+     .attributionDesktop a, a:visited{
+          text-decoration: none;
+          color:hsl(168, 34%, 41%);
+          }
 }
 
