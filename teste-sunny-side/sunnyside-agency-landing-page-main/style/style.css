@@ -391,7 +391,7 @@ color:hsl(168, 34%, 41%);
 
 
 
-@media screen and (min-width:750px) {
+@media screen and (min-width:750px) and (max-width:1300px) {
 
      .headerDesktop{
           width: 100vw;
@@ -518,7 +518,7 @@ color:hsl(168, 34%, 41%);
           }
 
      .sectionTitle{
-          margin:10% 10% 7% 10% ;
+          margin:10% 10% 5% 10% ;
           font-family: 'Fraunces', serif;
           font-size: 1.8rem;
           font-weight: 900;
@@ -532,7 +532,7 @@ color:hsl(168, 34%, 41%);
           font-weight:500;
           line-height: 1.7rem;
           color: hsl(232, 10%, 55%);  
-          margin:7% 10% 10% 10% ;
+          margin:5% 10% 10% 10% ;
           width: 80%;
                }
 
@@ -542,6 +542,9 @@ color:hsl(168, 34%, 41%);
 
      .transformText{
           text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
      }
 
      .transImgContainer{
@@ -666,7 +669,7 @@ color:hsl(168, 34%, 41%);
      }
 
      .desktopFooter{
-          height: 70vh;
+          height: 40%;
           background-color:hsl(168, 57%, 72%) ;
           text-align: center;
           display: flex;
@@ -707,6 +710,10 @@ color:hsl(168, 34%, 41%);
           width: 90vw;
           text-align: center;
           margin:5%;
+          display:  flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
      }
 
      .attributionDesktop a, a:visited{
@@ -715,3 +722,334 @@ color:hsl(168, 34%, 41%);
           }
 }
 
+@media screen and (min-width:1300px) {
+     .headerDesktop{
+          width: 100vw;
+          position: relative;
+          margin-bottom: -5px;
+     }
+
+     .desktopHeader{
+          display: block; 
+     }
+
+     .headerImg,.navMobile, .gridOneConainer,.graphicSectionContainer,.photografySectionContainer,.headerContainer,.TestemonialContainer,.gridContainer,.footerContainer {
+          display: none;
+     }
+
+     .navDeskTop{
+       position: absolute;    
+       top:4%;
+       width: 90vw;
+       display: flex;
+       justify-content: space-between;
+     }
+
+     
+     .logoDeskTop{
+       width: 170px;
+       margin: 1% 0% 0% 1%;
+     }
+
+     .deskTopNav{
+       display: flex;
+       list-style: none;
+       font-family: 'Barlow', sans-serif;
+       font-size: 1.3rem;
+       font-weight: 600;
+       color: white;
+       margin-left: -17%;
+     }
+
+     .listLink{
+     transform: translate(0, 18%);
+     margin: 0% 3% 0% 3%;
+     }
+
+     .btnStyle{
+       color: black;
+       background-color: white;
+       padding: 15px;
+       border-radius: 25px;
+       text-transform: uppercase;
+       font-family: 'Fraunces', serif;
+       font-weight: 700;
+       font-size:1rem;
+     }
+     
+     .txtContainer{
+       width: 100%;
+       top:27%;
+       color: white;
+       font-family: 'Fraunces', serif;
+       text-align: center;
+       text-transform: uppercase;
+       letter-spacing: 0.9rem;
+       font-size: 2rem;
+       font-weight: bolder;
+          }
+
+     .arrowStyle{
+        margin-top: 7%;
+        width: 3%;
+               } 
+
+
+     .linkStyle{
+       font-family: 'Fraunces', serif;
+       font-weight: 900; 
+       font-size: 1.7rem;
+       text-decoration: none;
+       text-transform: uppercase;
+       color: hsl(212, 27%, 19%);
+       }
+                         
+     .linkStyleBkg{
+       background-color: hsla(51, 100%, 49%, 0.2);
+       width: 20vw;
+       height: 0.7rem;
+       position: relative;
+       top: -10px;
+       border-radius: 0.5rem;
+     }
+
+     .linkStyleBkg:hover{
+          background-color:  hsl(51, 100%, 49%);
+          width: 20vw;
+          height: 0.7rem;
+          padding: 2px;
+          z-index: -1;     
+     }  
+     
+     .linkStyleBkgPink{
+          background-color: hsla(7, 99%, 70%, 0.3);
+          width: 20vw;
+          height: 0.7rem;
+          position: relative;
+          top: -10px;
+          border-radius: 0.5rem;
+          }
+          
+     .linkStyleBkgPink:hover{
+          background-color: hsla(7, 99%, 70%);
+          width: 20vw;
+          height: 0.7rem;
+          position: relative;
+          top: -10px;
+          border-radius: 0.5rem;
+          }
+
+     .desktopSectionOne{
+          display: grid;
+          grid-template: 1fr 1fr/ 1fr 1fr; 
+          width: 100vw;
+          text-align: center;
+          position: relative;
+          }
+
+     .sectionTitle{
+          margin:10% 10% 5% 10% ;
+          font-family: 'Fraunces', serif;
+          font-size: 2.7rem;
+          font-weight: 900;
+          color: hsl(212, 27%, 19%);
+          width: 80%;
+          }
+
+     .sectionDescription{
+          font-size: 1.7rem;    
+          font-family: 'Barlow', sans-serif; 
+          font-weight:500;
+          line-height: 2rem;
+          color: hsl(232, 10%, 55%);  
+          margin:5% 10% 10% 10% ;
+          width: 80%;
+               }
+
+     .transformText,.transImgContainer,.imgSectionGrid{
+          width: 50vw;
+     }
+
+     .transformText{
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .transImgContainer{
+          position: relative;
+          top:5px
+     }
+
+     .imgSectionGrid{
+          height: 100%;
+     }
+
+     .desktopSectionTwo{
+          display: grid;
+          grid-template:1fr / 1fr 1fr ;
+          width: 100vw;
+          position: relative;
+     }
+
+     .description{
+          position: absolute;
+          width: 40vw;
+          top: 45%;
+          text-align: center;
+          margin: 5% ;
+     }
+
+     .imgSectionTwo{
+          width: 50vw;
+     }
+
+     .dsktpSectionTitle1{
+          font-family: 'Fraunces', serif;
+          font-weight: 900;
+          font-size: 2.2rem;
+          margin-bottom: 5%;
+          color:hsl(167, 40%, 24%);
+     }
+
+     .dsktpSectionP1{
+          font-family: 'Barlow', sans-serif;
+          font-weight: 700;
+          font-size: 1.4rem;
+          color:hsl(167, 40%, 24%);
+          line-height: 1.9rem;
+     }
+
+     .dsktpSectionTitle2{
+          font-family: 'Fraunces', serif;
+          font-weight: 900;
+          font-size: 2.2rem;
+          margin-bottom: 5%;
+          color: hsl(198, 62%, 26%);
+     }
+
+     .dsktpSectionP2{
+          font-family: 'Barlow', sans-serif;
+          font-weight: 700;
+          font-size:1.4rem;
+          color: hsl(198, 62%, 26%) ;
+          line-height: 1.9rem;
+     }
+
+     .desktopTestemonials{
+          text-align: center;
+          display: block;
+     }
+
+     .titleTestemonial{
+          text-transform: uppercase;
+          font-family: 'Fraunces', serif;
+          font-weight: 900;
+          font-size: 1.5rem;
+          color: hsl(210, 4%, 67%);
+          margin: 10%;
+          letter-spacing: 0.4rem;
+     }
+
+     .containerTestemonials{
+       display:  flex;
+       justify-content: space-around;
+     }
+
+     .containerCleint{
+          text-align: center;
+          width: 30vw;
+          margin-bottom: 10%;
+     }
+
+     .imgClient{    
+     width:95px;
+     border-radius:50%;
+    }
+
+    .testemonialClient{
+         color: hsl(213, 9%, 39%);
+         font-family: 'Barlow', sans-serif;
+         line-height: 1.9rem;
+         font-weight: 400;
+         font-size: 1.6rem;
+         margin: 10% 0% 10% 0%;
+    }
+
+     .nameClient{
+          font-family: 'Fraunces', serif;
+          font-size: 1.2rem;
+          font-weight: 900;
+          margin-bottom: 4%;
+     } 
+
+     .occupationClient{
+          font-family: 'Barlow', sans-serif;
+          font-weight: 600;
+          font-size: 1.1rem;
+          color:hsl(210, 4%, 67%);
+     }
+
+     .dkstpGridImages{
+          display: grid;
+          grid-template:1fr/ 1fr 1fr 1fr 1fr
+     }
+
+     .dsktpGridImg{
+          width: 100%;
+     }
+
+     .desktopFooter{
+          height: 40%;
+          background-color:hsl(168, 57%, 72%) ;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .logoFooterContainer{
+          margin:9% 0% 5% 0%;
+     }
+
+     .dsktpfooterImg{
+          width: 250px;
+     }
+
+     .dsktpFooterNav{
+       display: flex;
+       list-style: none;
+       font-family: 'Barlow', sans-serif;
+       font-weight: 600;
+       font-size:1.1rem ;
+       color: hsl(168, 34%, 41%);
+       margin-bottom:25% ;
+     }
+
+     .dsktpfooterLinks{
+          margin:0px 25px 0px 25px ;
+     }
+
+     .dsktpfooterImgs{
+          margin: 0px 13px 0px 13px;
+     }
+
+     .attributionDesktop{
+          font-size: 1rem;
+          font-family: 'Barlow', sans-serif;
+          font-weight: 600;
+          width: 90vw;
+          text-align: center;
+          margin:5%;
+          display:  flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .attributionDesktop a, a:visited{
+          text-decoration: none;
+          color:hsl(168, 34%, 41%);
+          }
+}
