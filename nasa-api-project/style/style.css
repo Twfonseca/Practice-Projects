@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.textSize{
+    width: 90vw;
+}
+
+.imgStyle {
+    height: 500px;
+    margin-left: auto;
+}
