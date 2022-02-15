@@ -1,16 +1,67 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-.textSize{
-    width: 90vw;
+body{
+    font-family: 'Roboto Slab', serif;
+    background:url(./images/tumblr_pkv647vWBM1xp1j77o1_540.gif) no-repeat ;
+    background-size: cover;
+}
+
+.titlePage{
+    text-align: center;
+    margin: 2% 0% 4% 0%;
+}
+
+.container{
+  display: flex;
+}
+
+.boxStyle, .imgBoxStyle{
+    width:45vw
+}
+
+.imgBoxStyle{
+    margin-left: 7%;
+}
+
+.boxStyle{
+    background-color: rgba(49, 49, 49, 0.6);
+    border-radius: 5%;
+    margin-left: 3%;
+}
+
+.titleBox{
+    text-align: center;
+    margin:5% 0% ;
+}
+
+.explainBox,.footerBox{
+    width:90%;
+    margin: 5% 5%;
+    line-height:1.8rem ;
+}
+
+
+
+.titlePage,.titleStyle,.footerImgDate,.atributions,.textSize{
+color: white;
 }
 
 .imgStyle {
     height: 500px;
-    margin-left: auto;
 }
+
+.linkFooter{
+    color: rgba(128, 128, 128, 0.877);
+    text-align: center;
+    margin-top: 3%;
+}
+
+.linkFooter a:visited{
+    color: rgba(128, 128, 128, 0.877);
+    
+}
+

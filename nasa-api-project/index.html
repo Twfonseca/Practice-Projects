@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' type='text/css' media='screen' href='./style/style.css'>
-    <title>Nasa: Astronomy Picture of the day</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' type='text/css' media='screen' href='./style/style.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Nasa: Astronomy Picture of the day</title>
 </head>
-<body>
-<header>
-    <h1 id="titleImage"></h1>
-</header>
-<section>
-    <img class="imgStyle" id="spaceImg" alt="">
-    <p id="footerImg"></p>
-    <p class="textSize" id="explanation"></p>
+<body> 
+     <h1 class="titlePage"> Astronomy Picture of the Day</h1>
+  <section class=" container">
 
-</section>
-<footer>
-    <p id="atribution"></p>
-</footer>
+    <main class="boxStyle">
+      <header class="titleBox">
+          <h2 id="titleImage" class="titleStyle"></h2>
+      </header>
+      <section class="explainBox">
+          <p class="textSize" id="explanation"></p>
+      </section>
+      <footer class="footerBox">
+        <p id="footerImg" class="footerImgDate"></p>
+        <p id="atribution" class="atributions"></p>
+      </footer>
+    </main>
+    <aside class="imgBoxStyle">
+      <img class="imgStyle" id="spaceImg" alt="every day a different image of the space">
+    </aside>
+  </section>
+  <footer class="linkFooter">
+    <p> Astronomy Picture of the Day is an Api provided by : <a href="https://api.nasa.gov" target="_blank"> Nasa</a></p>
+  </footer>
+
+
 
 
 
 <script src='./script/main.js'></script>  
 </body>
 </html>
+

@@ -17,7 +17,7 @@ fetch(nasaUrl).then((response)=>{
        sectionImg.setAttribute('src',imgUrl)
        footImg.innerHTML= ` picture date: ${dateImg}`
        explain.innerHTML= explanation
-       atrib.innerHTML= copyR
+       atrib.innerHTML= `Atributions : ${copyR} `
 })
 
 
