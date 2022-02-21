@@ -764,6 +764,7 @@ color:hsl(168, 34%, 41%);
      .listLink{
      transform: translate(0, 18%);
      margin: 0% 3% 0% 3%;
+     cursor: pointer;
      }
 
      .btnStyle{
